@@ -149,6 +149,21 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .description {
+        width: 100%;
+        span {
+            font-size: 2rem;
+            font-family: var(--ff-serif);
+            color: #fff;
+            text-transform: uppercase;
+            line-height: 2;
+        }
+        p {
+            color: #D0D6F9;
+            font-family: var(--ff-sans-normal);
+            width: 100%;
+        }
+    }
 }
 
 .crew {
@@ -166,6 +181,16 @@ select {
 }
 
 header {
+    position: relative;
+    &::after {
+        width: 30%;
+        height: 1px;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.461);
+        content: "";
+        left: 180px;
+        z-index: -1;
+    }
     .menu {
         display: none;
     }
@@ -603,6 +628,17 @@ header {
         --padding: 50px
     }
     header {
+        position: relative;
+        &::after {
+            width: 30%;
+            height: 1px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.461);
+            content: "";
+            left: 180px;
+            z-index: -1;
+            display: none;
+        }
         margin-top: 0px;
         nav {
             margin-top: 0;
