@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="../sass/style.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="crew">
+    <header>
+        <div class="logo">
+            <img src="../starter-code/assets/shared/logo.svg" alt="" />
+        </div>
+        <nav>
+            <div class="menu">
+                <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="" />
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html"><span>00</span> Home</a>
+                </li>
+                <li>
+                    <a href="./destination-moon.html"><span>01</span> Destination</a>
+                </li>
+                <li class="active">
+                    <a href="./crew-commander.html"><span>03</span> Crew</a>
+                </li>
+                <li>
+                    <a href="./technology-vehicle.html"><span>02</span> Technology</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <div class="left">
+                <div class="name">
+                    <h2><span>02</span> Meet your crew</h2>
+                </div>
+                <div class="role">
+                    <h3>Commander</h3>
+                </div>
+                <div class="description">
+                    <span>Douglas Hurley</span>
+                    <p>
+                        <br />Douglas Hurley Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+                    </p>
+                </div>
+
+                <div class="dots">
+                    <span class="dot active" id="Douglas Hurley"></span>
+                    <span class="dot" id="Mark Shuttleworth"></span>
+                    <span class="dot" id="Victor Glover"></span>
+                    <span class="dot" id="Anousheh Ansari"></span>
+                </div>
+            </div>
+            <div class="right">
+                <img src="../starter-code/assets/crew/image-douglas-hurley.png" alt="" />
+            </div>
+        </main>
+    </div>
+    <div class="loader">
+        <div class="loading">
+            <p>loading</p>
+            <span></span>
+        </div>
+    </div>
+    <script src="../js/crew.js"></script>
+</body>
+
+</html>
