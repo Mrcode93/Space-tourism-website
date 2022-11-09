@@ -48,7 +48,7 @@ let targetName = function() {
 };
 targetName();
 
-let loader = document.querySelector(".loader");
+let loader = document.querySelector(".load");
 
 window.onload = () => {
     loader.style.display = "none";

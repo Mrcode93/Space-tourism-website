@@ -14,7 +14,7 @@ menu.addEventListener("click", () => {
 const one = document.querySelector("#one");
 const two = document.querySelector("#two");
 const three = document.querySelector("#three");
-let loader = document.querySelector(".loader");
+let loader = document.querySelector(".load");
 
 window.onload = () => {
     loader.style.display = "none";
